@@ -5,7 +5,7 @@ import { GameCard } from './components/GameCard'
 const SHAPES = ['triangle', 'circle', 'square'] as const
 const COLORS = ['red', 'blue', 'green'] as const
 const BACKGROUNDS = ['black', 'white', 'grey'] as const
-const TURN_TIME = 60 // seconds per turn
+const TURN_TIME = 30 // seconds per turn
 const MAX_EMPTY_TURNS = 6 // game ends after this many turns without valid guesses
 
 type Shape = (typeof SHAPES)[number]
@@ -208,7 +208,7 @@ function App() {
 
   return (
     <div className='p-4 sm:p-6 max-w-xl mx-auto space-y-4'>
-      <h1 className='text-2xl font-bold text-center'>Same Difference</h1>
+      <h1 className='text-2xl font-bold text-center'>Same OR Different</h1>
 
       {/* Game Over Banner */}
       {gameOver && (

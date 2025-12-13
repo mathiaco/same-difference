@@ -1,4 +1,4 @@
-# Same Difference
+# Same Or Different
 
 A two-player card matching game inspired by The Genius.
 
@@ -36,7 +36,7 @@ A valid set of 3 cards must satisfy this rule for **each property**:
 
 ## Timer & Turn Rules
 
-- Each player has **60 seconds** per turn
+- Each player has **30 seconds** per turn
 - If time runs out without an attempt → turn passes to next player
 - After **6 timeouts** (turns with no attempt) → game ends
 
